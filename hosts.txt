@@ -1,5 +1,4 @@
 [linux1]
-linux1  ansible_host=34.210.198.96 ansible_user=ubuntu    ansible_ssh_private_key_file=/Users/olehhordon/Downloads/oleg-pet-project-key.pem
-
+linux1  ansible_host=ip ansible_user=user    ansible_ssh_private_key_file=key.pem
 [linux1:vars]
 ansible_python_interpreter=/usr/bin/python3

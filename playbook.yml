@@ -4,20 +4,20 @@
   vars:
     - ansible_connection: ssh
     - ansible_user: ubuntu
-    - domain: project-by-oleg.space 
+    - domain: 
     - ansible_port: 22
     - mysql_port: 3306
     - mysql_root_password: root
-    - php_version: 7.4
+    - php_version:
     # Wordpress config
     - auto_up_disable: true
     - core_update_level: true
     # For WP-CLI
     - root_bin: /usr/local/bin
     - wpuser: supervisor
-    - wpmail: norrinradd212@gmail.com
+    - wpmail:
     # For Certbot/LetsEncrypt
-    - certbot_mail: norrinradd212@gmail.com
+    - certbot_mail: 
   roles:
     - static
     - fail2ban
